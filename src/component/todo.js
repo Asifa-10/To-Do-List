@@ -89,7 +89,7 @@ const Todo = () =>{
                             <Tooltip title="Add">
                                 <AddIcon className="addbtn" />
                             </Tooltip>
-                        </Button> : <Button onClick={editItem}>
+                        </Button> : <Button onClick={addItem}>
                                     <Tooltip title="Update">
                                         <EditIcon className="updatebtn"/>
                                     </Tooltip>
